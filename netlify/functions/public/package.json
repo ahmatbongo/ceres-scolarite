@@ -1,0 +1,26 @@
+{
+  "name": "ceres-scolarite",
+  "version": "1.0.0",
+  "description": "CERES Scolarité - Plateforme de gestion scolaire pour les établissements au Tchad",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "build:prod": "echo 'Production build complete'",
+    "dev": "netlify dev"
+  },
+  "keywords": [
+    "education",
+    "scolarite",
+    "tchad",
+    "ceres"
+  ],
+  "author": "CERES",
+  "license": "MIT",
+  "dependencies": {
+    "resend": "^3.0.0",
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
